@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	chatgpt_errors "github.com/ayush6624/go-chatgpt/utils"
 	"github.com/stretchr/testify/assert"
+	chatgpt_errors "github.com/taeuk-works/go-chatgpt/utils"
 )
 
 func TestValidate(t *testing.T) {
